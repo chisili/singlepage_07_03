@@ -331,6 +331,28 @@ aside .scroll{
   right: 10px;
   top: 50%;
 }
+aside>ul{
+  position: fixed;
+  right: 35px; top: 50%;
+  margin-top: -73px;
+}
+aside>ul>li{
+  margin-bottom: 15px;
+}
+aside>ul>li:last-child{
+  margin-bottom: 40px;
+}
+aside>ul>li>a{
+  display: block;
+  width: 18px; height: 18px;
+  background-color: pink;
+  border-radius: 50%;
+  text-indent: -99999px;
+}
+aside>ul>li>a:hover{
+  background-color: green;
+}
+
 
 footer{
   padding: 40px 0;
